@@ -161,7 +161,7 @@ module Mail
     end
     
     def charset
-      if self[:content_type] && self[:content_type].parameters
+      if self[:content_type] && self[:content_type].respond_to?(:parameters) && self[:content_type].parameters.respond_to?(:[])
         self[:content_type].parameters[:charset]
       else
         @charset

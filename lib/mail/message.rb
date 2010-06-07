@@ -1395,12 +1395,12 @@ module Mail
     
     # Returns the main content type
     def main_type
-      has_content_type? ? header[:content_type].main_type : nil
+      has_content_type? && header[:content_type].respond_to?(:main_type) ? header[:content_type].main_type : nil
     end
     
     # Returns the sub content type
     def sub_type
-      has_content_type? ? header[:content_type].sub_type : nil
+      has_content_type? && header[:content_type].respond_to?(:sub_type) ? header[:content_type].sub_type : nil
     end
     
     # Returns the content type parameters
@@ -1411,7 +1411,7 @@ module Mail
     
     # Returns the content type parameters
     def content_type_parameters
-      has_content_type? ? header[:content_type].parameters : nil
+      has_content_type? && header[:content_type].respond_to?(:parameters) ? header[:content_type].parameters : nil
     end
     
     # Returns true if the message is multipart
