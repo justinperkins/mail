@@ -1,0 +1,46 @@
+Delivered-To: foo@bar.com
+Received: by 10.143.167.9 with SMTP id u9cs199925wfo;
+        Wed, 26 May 2010 16:59:36 -0700 (PDT)
+Received: by 10.224.97.14 with SMTP id j14mr5364180qan.7.1274918374948;
+        Wed, 26 May 2010 16:59:34 -0700 (PDT)
+Return-Path: <abctvstore@mailca.custhelp.com>
+Received: from mailgwca05.rightnowtech.com (mailgwca05.rightnowtech.com [216.136.162.125])
+        by mx.google.com with ESMTP id 7si1945414qwf.26.2010.05.26.16.59.32;
+        Wed, 26 May 2010 16:59:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of abctvstore@mailca.custhelp.com designates 216.136.162.125 as permitted sender) client-ip=216.136.162.125;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of abctvstore@mailca.custhelp.com designates 216.136.162.125 as permitted sender) smtp.mail=abctvstore@mailca.custhelp.com; dkim=pass header.i=@mailca.custhelp.com
+Return-Path: <abctvstore@mailca.custhelp.com>
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=dkrnt; d=mailca.custhelp.com;
+	h=DKIM-Signature:Received:Content-Type:Content-Transfer-Encoding:From:Reply-To:To:Date:Subject:MIME-Version:Message-Id;
+	b=PVdIceRCnUDXtgrDJuyLdad/dRge98Nxo0+9RZksvU7C9UOulQpoL2a8KAMkhX1g
+	07UZUwB/0jLwcAiI5eYNXdkp6Wx3uRn1w1R60cIYzvpheKu3UfusKpY2lbzRF3pD
+	UIDwCEQOGBXRM/OUMxSFfjVPaxHNixAjiKirjrfSZ48=
+DKIM-Signature: v=1; a=rsa-sha1; d=mailca.custhelp.com; s=dkimrnt; c=simple/simple;
+	q=dns/txt; i=@mailca.custhelp.com; t=1274918372;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=zjAg7Dn7ug31Hckz7+sQDvTmLXU=;
+	b=ibRGR4jYBaIj8LylrqMgDKMMkdWV1+e+kS55Ot6E7rmG/2ms+RVe96D68nTKusrB
+	/CQIvI5inF4Qfe8jy9gatAVigkRehyCXL6ZqonOzjpjUKP85ApouOL0kioBAVZZw
+	iu2/AUWnG8u4za6Ipis+ksQOCq0keFcpLI2rz65FBSA=;
+Received: from [192.168.100.146] ([192.168.100.146:57370] helo=access-sc5.rightnowtech.com)
+	by rntca125.rnmk.com (envelope-from <abctvstore@mailca.custhelp.com>)
+	(ecelerity 2.2.2.45 r(34222M)) with ESMTP
+	id C9/9B-25367-4E5BDFB4; Wed, 26 May 2010 16:59:32 -0700
+Received: from websc06.int.rightnowtech.com (localhost.localdomain [127.0.0.1])
+	by access-sc5.rightnowtech.com ("Mail Server") with SMTP id 1BA48DFA21
+	for <foo@bar.com>; Wed, 26 May 2010 16:59:32 -0700 (PDT)
+Content-Type: Text/Plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+From: "abctvstore@mailca.custhelp.com" 
+    <abctvstore@mailca.custhelp.com>
+Reply-To: "abctvstore@mailca.custhelp.com" 
+    <abctvstore@mailca.custhelp.com>
+To: foo@bar.com,hello@world.com
+Date: Wed, 26 May 2010 16:59:32 -0700 (PDT)
+Subject: need to confirm an order [Incident: 100525-000694]
+MIME-Version: 1.0
+Message-Id: <RNTT.Av~y8QoyDv8S~YXzGj8i4eTfjBcqYS7~MmH~.1274918371.yDfUJ8AT~BvQQdwx8iM!@websc06.int.rightnowtech.com>
+
+
+this is the email body
